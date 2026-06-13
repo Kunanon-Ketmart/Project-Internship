@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="th">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Career Twin — FWD Life Insurance</title>
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Noto+Sans+Thai:wght@300;400;500;600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
   :root {
     --void: #050810;
@@ -29,7 +29,7 @@
   html { scroll-behavior: smooth; }
 
   body {
-    font-family: 'Noto Sans Thai', 'Space Grotesk', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     background: var(--void);
     color: var(--text-primary);
     min-height: 100vh;
@@ -1032,32 +1032,32 @@
   </div>
 
   <h1 class="hero-headline">
-    ดูชีวิตอีกเวอร์ชัน<br>
-    <span class="gradient-text">ของตัวเอง</span>
+    See Another Version<br>
+    <span class="gradient-text">Of Your Life</span>
   </h1>
 
   <p class="hero-sub">
-    AI จำลองเส้นทางชีวิตที่คุณยังไม่ได้เลือก<br>
-    ใช้เวลาแค่ 3 นาที เห็นผลลัพธ์ที่เปลี่ยนชีวิต
+    AI simulates the career path you haven't chosen yet.<br>
+    Takes just 3 minutes to see life-changing results.
   </p>
 
   <button class="cta-primary" onclick="startQuiz()">
-    เริ่มสแกนชีวิตของฉัน
+    Start Scanning My Life
     <span class="cta-arrow">→</span>
   </button>
 
   <div class="intro-stats">
     <div class="stat-item">
       <div class="stat-num">12,000+</div>
-      <div class="stat-label">ผู้ใช้งาน</div>
+      <div class="stat-label">Users</div>
     </div>
     <div class="stat-item">
-      <div class="stat-num">3 นาที</div>
-      <div class="stat-label">เท่านั้น</div>
+      <div class="stat-num">3 Mins</div>
+      <div class="stat-label">Only</div>
     </div>
     <div class="stat-item">
       <div class="stat-num">94%</div>
-      <div class="stat-label">บอกว่าเปิดตา</div>
+      <div class="stat-label">Eye-opening</div>
     </div>
   </div>
 </section>
@@ -1087,45 +1087,45 @@
   </div>
 
   <div>
-    <div class="loading-title">กำลังสร้าง Career Twin…</div>
-    <div style="color:var(--text-muted);font-size:0.85rem;margin-top:0.5rem;text-align:center">AI กำลังวิเคราะห์โปรไฟล์ของคุณ</div>
+    <div class="loading-title">Generating Career Twin...</div>
+    <div style="color:var(--text-muted);font-size:0.85rem;margin-top:0.5rem;text-align:center">AI is analyzing your profile</div>
   </div>
 
   <div class="loading-steps" id="loading-steps">
     <div class="load-step" id="step-1">
       <div class="step-icon">○</div>
-      <span>วิเคราะห์โปรไฟล์อาชีพ</span>
+      <span>Analyzing career profile</span>
     </div>
     <div class="load-step" id="step-2">
       <div class="step-icon">○</div>
-      <span>คำนวณ Income Trajectory</span>
+      <span>Calculating income trajectory</span>
     </div>
     <div class="load-step" id="step-3">
       <div class="step-icon">○</div>
-      <span>จำลอง Lifestyle ใน 5 ปี</span>
+      <span>Simulating lifestyle in 5 years</span>
     </div>
     <div class="load-step" id="step-4">
       <div class="step-icon">○</div>
-      <span>สร้าง Personalized Career Twin</span>
+      <span>Creating personalized Career Twin</span>
     </div>
   </div>
 </section>
 
 <section id="screen-result" class="screen">
   <div class="result-header">
-    <div class="twin-badge">✓ Career Twin สร้างเสร็จแล้ว</div>
+    <div class="twin-badge">✓ Career Twin Created Successfully</div>
     <h2 class="result-title">
-      ชีวิตอีกเวอร์ชันของ<br>
-      <span id="result-name" style="color:var(--plasma)">คุณ</span>
+      Another version of<br>
+      <span id="result-name" style="color:var(--plasma)">You</span>
     </h2>
-    <p class="result-subtitle">ถ้าวันนี้คุณเริ่มต้นเป็น FWD Agent</p>
+    <p class="result-subtitle">If you start as an FWD Agent today</p>
   </div>
 
   <div class="comparison-grid">
     <div class="life-card">
       <div class="card-label">
         <div class="card-label-dot"></div>
-        ชีวิตปัจจุบัน
+        Current Life
       </div>
       <div class="timeline-rows" id="current-timeline"></div>
     </div>
@@ -1143,12 +1143,12 @@
   <div class="breakeven-card">
     <div class="breakeven-left">
       <div class="breakeven-label">⚡ Breakeven Point</div>
-      <div class="breakeven-title">คุณจะทำรายได้เท่าเดิม</div>
-      <div class="breakeven-sub">ภายในระยะเวลาเพียง…</div>
+      <div class="breakeven-title">You will match your current income</div>
+      <div class="breakeven-sub">in just...</div>
     </div>
     <div>
       <div class="breakeven-number" id="breakeven-num">—</div>
-      <div class="breakeven-unit">เดือนแรก</div>
+      <div class="breakeven-unit">Months</div>
     </div>
     <div style="max-width:220px">
       <div style="font-size:0.85rem;color:var(--text-secondary);line-height:1.6" id="breakeven-desc">
@@ -1158,65 +1158,65 @@
   </div>
 
   <div class="share-section">
-    <div class="section-eyebrow">แชร์ Career Twin ของคุณ</div>
+    <div class="section-eyebrow">Share your Career Twin</div>
     <div class="share-card-preview" id="share-card">
       <div class="share-name" id="share-name">—</div>
       <div class="share-role" id="share-role">—</div>
       <div class="share-numbers">
         <div class="share-num-item">
           <div class="share-num-val" id="share-income-y1">—</div>
-          <div class="share-num-label">รายได้ปีแรก/เดือน</div>
+          <div class="share-num-label">Year 1 Income/Mo</div>
         </div>
         <div class="share-num-item">
           <div class="share-num-val" id="share-income-y3">—</div>
-          <div class="share-num-label">รายได้ปีที่ 3/เดือน</div>
+          <div class="share-num-label">Year 3 Income/Mo</div>
         </div>
         <div class="share-num-item">
           <div class="share-num-val" id="share-income-y5">—</div>
-          <div class="share-num-label">รายได้ปีที่ 5/เดือน</div>
+          <div class="share-num-label">Year 5 Income/Mo</div>
         </div>
       </div>
       <div class="share-fwd-tag">FWD Life Insurance · Career Twin AI</div>
     </div>
     <div class="share-btns">
-      <button class="share-btn primary" onclick="copyResult()">📋 คัดลอกผลลัพธ์</button>
-      <button class="share-btn secondary" onclick="restartQuiz()">🔄 ลองใหม่อีกครั้ง</button>
+      <button class="share-btn primary" onclick="copyResult()">📋 Copy Result</button>
+      <button class="share-btn secondary" onclick="restartQuiz()">🔄 Try Again</button>
     </div>
   </div>
 
   <div class="ai-chat-section">
-    <div class="section-eyebrow">ถาม AI Career Coach</div>
+    <div class="section-eyebrow">Ask AI Career Coach</div>
     <div class="chat-box">
       <div class="chat-messages" id="result-chat-messages">
         <div class="msg ai">
           <div class="msg-avatar">🤖</div>
           <div class="msg-bubble">
-            สวัสดีครับ! ผมคือ Career Coach AI ของ FWD 👋 ดู Career Twin ของคุณแล้วเป็นยังไงบ้าง? มีคำถามอะไรอยากรู้เพิ่มเติมไหมครับ
+            Hello! I'm your FWD Career Coach AI 👋 How do you feel about your Career Twin? Do you have any further questions?
           </div>
         </div>
       </div>
       <div class="quick-questions">
-        <button class="quick-q" onclick="quickAsk(this)">ถ้าฉันยังไม่พร้อมลาออกล่ะ?</button>
-        <button class="quick-q" onclick="quickAsk(this)">ต้องใช้ทุนเริ่มต้นเท่าไหร่?</button>
-        <button class="quick-q" onclick="quickAsk(this)">รายได้ที่แสดงเป็นจริงแค่ไหน?</button>
-        <button class="quick-q" onclick="quickAsk(this)">เริ่มต้นต้องทำอะไรก่อน?</button>
+        <button class="quick-q" onclick="quickAsk(this)">What if I'm not ready to quit my job?</button>
+        <button class="quick-q" onclick="quickAsk(this)">How much starting capital is needed?</button>
+        <button class="quick-q" onclick="quickAsk(this)">How realistic are these earnings?</button>
+        <button class="quick-q" onclick="quickAsk(this)">What should I do first to start?</button>
       </div>
       <div class="chat-input-row">
-        <input class="chat-field" id="chat-input" placeholder="ถามอะไรก็ได้…" onkeydown="if(event.key==='Enter')sendChat()">
+        <input class="chat-field" id="chat-input" placeholder="Ask anything..." onkeydown="if(event.key==='Enter')sendChat()">
         <button class="chat-send" onclick="sendChat()">↑</button>
       </div>
     </div>
   </div>
 
   <div class="cta-final">
-    <div class="cta-final-title">พร้อมเริ่มต้นชีวิตใหม่แล้วหรือยัง?</div>
-    <div class="cta-final-sub">คุยกับ FWD Agent ตัวจริง ฟรี ไม่มีข้อผูกมัด</div>
+    <div class="cta-final-title">Ready to start a new life?</div>
+    <div class="cta-final-sub">Talk to a real FWD Agent for free, no strings attached.</div>
     <div class="cta-final-btns">
-      <button class="cta-primary" onclick="showToast('✅ ส่งข้อมูลแล้ว! Agent จะติดต่อกลับภายใน 24 ชม.')">
-        นัด 1-on-1 กับ Agent ฟรี →
+      <button class="cta-primary" onclick="showToast('✅ Data sent! An Agent will contact you within 24 hours.')">
+        Book a free 1-on-1 with an Agent →
       </button>
-      <button class="share-btn secondary" onclick="showToast('📥 ดาวน์โหลด PDF เสร็จแล้ว!')">
-        📄 ดาวน์โหลด Career Report
+      <button class="share-btn secondary" onclick="showToast('📥 PDF downloaded successfully!')">
+        📄 Download Career Report
       </button>
     </div>
   </div>
@@ -1268,68 +1268,68 @@ animateParticles();
 const questions = [
   {
     id: 'name',
-    ai: 'สวัสดีครับ! 👋 ผมคือ Career Twin AI\n\nก่อนเริ่ม ขอรู้จักคุณหน่อยนะครับ — ชื่อคุณคืออะไรครับ?',
+    ai: 'Hello! 👋 I\'m Career Twin AI\n\nBefore we start, let\'s get to know each other — what\'s your name?',
     type: 'text',
-    placeholder: 'ชื่อของฉัน…',
+    placeholder: 'My name is...',
     key: 'name'
   },
   {
     id: 'job',
-    ai: (d) => `ยินดีที่รู้จักครับ คุณ${d.name}! 🎯\n\nตอนนี้ทำงานสายไหนอยู่ครับ?`,
+    ai: (d) => `Nice to meet you, ${d.name}! 🎯\n\nWhat field are you currently working in?`,
     type: 'options',
     options: [
-      { icon: '💼', label: 'พนักงานออฟฟิศ / บริษัทเอกชน' },
-      { icon: '🏛️', label: 'ข้าราชการ / รัฐวิสาหกิจ' },
-      { icon: '💻', label: 'Freelance / ทำงานอิสระ' },
-      { icon: '🏪', label: 'เจ้าของกิจการเล็กๆ' },
+      { icon: '💼', label: 'Office Worker / Private Sector' },
+      { icon: '🏛️', label: 'Civil Servant / State Enterprise' },
+      { icon: '💻', label: 'Freelance / Self-Employed' },
+      { icon: '🏪', label: 'Small Business Owner' },
     ],
     key: 'job'
   },
   {
     id: 'salary',
-    ai: 'เข้าใจแล้วครับ 📊 เงินเดือนปัจจุบันประมาณเท่าไหร่ครับ? (ไม่ต้องกังวล ข้อมูลนี้ใช้แค่คำนวณ Career Twin เท่านั้น)',
+    ai: 'Got it! 📊 What\'s your approximate current salary? (Don\'t worry, this is only used to calculate your Career Twin)',
     type: 'options',
     options: [
-      { icon: '💰', label: 'ต่ำกว่า 20,000 บาท' },
-      { icon: '💰', label: '20,000 – 35,000 บาท' },
-      { icon: '💰', label: '35,000 – 60,000 บาท' },
-      { icon: '💰', label: 'มากกว่า 60,000 บาท' },
+      { icon: '💰', label: 'Under 20,000 THB' },
+      { icon: '💰', label: '20,000 – 35,000 THB' },
+      { icon: '💰', label: '35,000 – 60,000 THB' },
+      { icon: '💰', label: 'More than 60,000 THB' },
     ],
     key: 'salary'
   },
   {
     id: 'goal',
-    ai: (d) => `โอเคครับ 🙌 แล้วสิ่งที่คุณ${d.name}อยากได้จากชีวิตมากที่สุดตอนนี้คืออะไร?`,
+    ai: (d) => `Okay 🙌 And what is the one thing you, ${d.name}, want most out of life right now?`,
     type: 'options',
     options: [
-      { icon: '🕒', label: 'อิสระด้านเวลา — ไม่ต้องเข้าออฟฟิศ' },
-      { icon: '💵', label: 'รายได้ที่ไม่มีเพดาน' },
-      { icon: '👨‍👩‍👧', label: 'เวลาให้ครอบครัวมากขึ้น' },
-      { icon: '✈️', label: 'ทำงานจากที่ไหนก็ได้' },
+      { icon: '🕒', label: 'Time Freedom — No office hours' },
+      { icon: '💵', label: 'Unlimited Income Potential' },
+      { icon: '👨‍👩‍👧', label: 'More time for family' },
+      { icon: '✈️', label: 'Work from anywhere' },
     ],
     key: 'goal'
   },
   {
     id: 'worry',
-    ai: 'เข้าใจมากเลยครับ! 💡 แล้วสิ่งที่กังวลมากที่สุดถ้าจะเปลี่ยนมาทำอาชีพอิสระคืออะไร?',
+    ai: 'I totally understand! 💡 What\'s your biggest worry about switching to an independent career?',
     type: 'options',
     options: [
-      { icon: '📉', label: 'รายได้ไม่แน่นอน กลัวไม่พอจ่าย' },
-      { icon: '❓', label: 'ไม่รู้จะเริ่มต้นยังไง' },
-      { icon: '😰', label: 'กลัวล้มเหลว / คนรอบข้างมองยังไง' },
-      { icon: '🕐', label: 'ไม่มีเวลา ยังติดงานประจำ' },
+      { icon: '📉', label: 'Uncertain income, afraid it won\'t be enough' },
+      { icon: '❓', label: 'Don\'t know how to start' },
+      { icon: '😰', label: 'Fear of failure / What others will think' },
+      { icon: '🕐', label: 'No time, stuck in a full-time job' },
     ],
     key: 'worry'
   },
   {
     id: 'ready',
-    ai: (d) => `เกือบเสร็จแล้วครับ คุณ${d.name}! ⚡\n\nถ้ารู้ว่ารายได้ปีแรกจะสูงกว่าเดิม 40% — คุณพร้อมเริ่มต้นเรียนรู้ได้เลยไหมครับ?`,
+    ai: (d) => `Almost done, ${d.name}! ⚡\n\nIf you knew your first-year income would be 40% higher — would you be ready to start learning today?`,
     type: 'options',
     options: [
-      { icon: '🔥', label: 'พร้อมมากเลย อยากเริ่มเดี๋ยวนี้!' },
-      { icon: '🤔', label: 'สนใจ แต่อยากรู้ข้อมูลเพิ่มก่อน' },
-      { icon: '⏳', label: 'ยังลังเล ต้องคิดอีกนิด' },
-      { icon: '👀', label: 'แค่อยากดูผลลัพธ์ก่อน' },
+      { icon: '🔥', label: 'Absolutely, I want to start right now!' },
+      { icon: '🤔', label: 'Interested, but need more info first' },
+      { icon: '⏳', label: 'Still hesitating, need to think about it' },
+      { icon: '👀', label: 'Just want to see the results first' },
     ],
     key: 'ready'
   }
@@ -1449,7 +1449,7 @@ function renderAnswerArea(q) {
     wrap.className = 'text-input-wrap';
     const input = document.createElement('input');
     input.className = 'text-input';
-    input.placeholder = q.placeholder || 'พิมพ์ที่นี่…';
+    input.placeholder = q.placeholder || 'Type here...';
     input.id = 'current-input';
     input.onkeydown = (e) => {
       if (e.key === 'Enter' && input.value.trim()) {
@@ -1519,7 +1519,7 @@ function startLoading() {
 // ══════════════════════ RESULT BUILDER ══════════════════════
 function getSalaryBase(salaryStr) {
   if (!salaryStr) return 25000;
-  if (salaryStr.includes('ต่ำกว่า')) return 18000;
+  if (salaryStr.includes('Under') || salaryStr.includes('ต่ำกว่า')) return 18000;
   if (salaryStr.includes('20,000')) return 27500;
   if (salaryStr.includes('35,000')) return 47500;
   return 75000;
@@ -1536,10 +1536,10 @@ function buildResult() {
   const growth = 0.02; // 2% annual raise
 
   const currentY = [
-    { year: 'ปีที่ 1', val: base },
-    { year: 'ปีที่ 2', val: Math.round(base * (1 + growth)) },
-    { year: 'ปีที่ 3', val: Math.round(base * Math.pow(1 + growth, 2)) },
-    { year: 'ปีที่ 5', val: Math.round(base * Math.pow(1 + growth, 4)) },
+    { year: 'Year 1', val: base },
+    { year: 'Year 2', val: Math.round(base * (1 + growth)) },
+    { year: 'Year 3', val: Math.round(base * Math.pow(1 + growth, 2)) },
+    { year: 'Year 5', val: Math.round(base * Math.pow(1 + growth, 4)) },
   ];
 
   const twinMultipliers = [1.4, 2.2, 3.5, 6.0];
@@ -1559,7 +1559,7 @@ function buildResult() {
       <div class="timeline-row">
         <div>
           <div class="t-year">${r.year}</div>
-          <div class="t-value">${formatK(r.val)} บาท/เดือน</div>
+          <div class="t-value">${formatK(r.val)} THB/Mo</div>
           <div class="t-bar"><div class="t-bar-fill" data-w="${pct}"></div></div>
         </div>
       </div>`;
@@ -1574,7 +1574,7 @@ function buildResult() {
       <div class="timeline-row">
         <div>
           <div class="t-year">${r.year}</div>
-          <div class="t-value">${formatK(r.val)} บาท/เดือน</div>
+          <div class="t-value">${formatK(r.val)} THB/Mo</div>
           <div class="t-bar"><div class="t-bar-fill" data-w="${pct}"></div></div>
         </div>
       </div>`;
@@ -1582,9 +1582,9 @@ function buildResult() {
 
   // Metrics
   const metricsData = [
-    { icon: '🏖️', label: 'วันหยุด/ปี', now: '8 วัน', new_: 'ไม่จำกัด' },
-    { icon: '⏰', label: 'เวลาทำงาน', now: '8-9 ชม./วัน', new_: 'ออกแบบเอง' },
-    { icon: '👨‍👩‍👧', label: 'เวลาครอบครัว', now: 'น้อย', new_: 'เต็มที่' },
+    { icon: '🏖️', label: 'Days Off/Yr', now: '8 Days', new_: 'Unlimited' },
+    { icon: '⏰', label: 'Work Hours', now: '8-9 Hrs/Day', new_: 'Flexible' },
+    { icon: '👨‍👩‍👧', label: 'Family Time', now: 'Limited', new_: 'Maximized' },
   ];
 
   const mEl = document.getElementById('metrics-row');
@@ -1605,13 +1605,13 @@ function buildResult() {
   const be = 4 + Math.round(Math.random() * 4); // 4-8 months
   document.getElementById('breakeven-num').textContent = be;
   document.getElementById('breakeven-desc').textContent =
-    `ใน ${be} เดือนแรก รายได้จาก FWD Agency จะแซงหน้าเงินเดือนปัจจุบันของคุณ — โดยที่ยังไม่ต้องลาออก!`;
+    `In just ${be} months, your income from FWD Agency will surpass your current salary — without even quitting your job!`;
 
   // Share card
-  const name = userData.name || 'คุณ';
+  const name = userData.name || 'You';
   document.getElementById('result-name').textContent = name;
   document.getElementById('share-name').textContent = name + ' · Career Twin';
-  document.getElementById('share-role').textContent = `จาก: ${userData.job || 'พนักงานประจำ'} → FWD Agent`;
+  document.getElementById('share-role').textContent = `From: ${userData.job || 'Full-time Employee'} → FWD Agent`;
   document.getElementById('share-income-y1').textContent = formatK(twinY[0].val);
   document.getElementById('share-income-y3').textContent = formatK(twinY[2].val);
   document.getElementById('share-income-y5').textContent = formatK(twinY[3].val);
@@ -1697,27 +1697,26 @@ function removeResultTyping() {
   if (t) t.remove();
 }
 
-// เปลี่ยนจากการยิง API ตรงๆ มาเป็น Mock Response เพื่อให้ทำ POC ได้
 async function getAIResponse(userMsg) {
   showResultTyping();
   
-  // จำลองเวลาคิดของ AI (Network Delay)
+  // Simulate AI network delay
   await new Promise(resolve => setTimeout(resolve, 1200 + Math.random() * 800));
   removeResultTyping();
 
   // Keyword-based Mock Responses
-  let reply = 'เป็นคำถามที่ดีมากครับ! สำหรับรายละเอียดที่เฉพาะเจาะจง ผมแนะนำให้ลองกดปุ่มด้านล่างเพื่อนัดคุยกับ Agent ตัวจริงของเราเพื่อรับคำปรึกษาฟรีนะครับ 😊';
+  let reply = 'That\'s a great question! For specific details, I highly recommend clicking the button below to book a free consultation with our real Agent 😊';
   
   const msgLower = userMsg.toLowerCase();
   
-  if (msgLower.includes('ลาออก') || msgLower.includes('ไม่พร้อม')) {
-    reply = 'ไม่ต้องลาออกก็เริ่มต้นได้ครับ! FWD เปิดโอกาสให้คุณสามารถทำเป็นอาชีพเสริม (Part-time) เพื่อเรียนรู้ระบบและสร้างรายได้ควบคู่ไปกับงานประจำก่อนได้ครับ 💼';
-  } else if (msgLower.includes('ทุน') || msgLower.includes('เงิน')) {
-    reply = 'คุณแทบไม่ต้องใช้เงินลงทุนเลยครับ! FWD มีระบบสนับสนุน เครื่องมือดิจิทัล และคอร์สฝึกอบรมฟรีทั้งหมด สิ่งที่ต้องลงทุนคือ "เวลาและความตั้งใจ" ครับ 🚀';
-  } else if (msgLower.includes('จริง') || msgLower.includes('ตัวเลข')) {
-    reply = 'ตัวเลขเหล่านี้อ้างอิงจากฐานข้อมูลเฉลี่ยของ Agent ที่ผ่านโปรแกรมฝึกอบรมและลงมือทำอย่างต่อเนื่องครับ แน่นอนว่าผลลัพธ์ที่แท้จริงจะขึ้นอยู่กับความทุ่มเทของคุณด้วยครับ 📈';
-  } else if (msgLower.includes('เริ่ม') || msgLower.includes('ทำอะไร')) {
-    reply = 'เริ่มต้นง่ายๆ แค่ลงทะเบียนพูดคุยกับ Agent ของเรา (ฟรี) เพื่อรับฟังโครงสร้างรายได้และการทำงานจริงๆ ก่อนตัดสินใจครับ กดที่ปุ่มด้านล่างได้เลย 👇';
+  if (msgLower.includes('quit') || msgLower.includes('not ready')) {
+    reply = 'You don\'t have to quit your job to start! FWD allows you to work part-time, learning the system and generating side income alongside your regular job 💼';
+  } else if (msgLower.includes('capital') || msgLower.includes('money') || msgLower.includes('start')) {
+    reply = 'You hardly need any capital! FWD provides full support, digital tools, and free training courses. The only investment needed is your "time and dedication" 🚀';
+  } else if (msgLower.includes('realistic') || msgLower.includes('numbers') || msgLower.includes('real')) {
+    reply = 'These numbers are based on the average database of Agents who complete our training and consistently take action. Of course, the real outcome depends on your dedication 📈';
+  } else if (msgLower.includes('first') || msgLower.includes('do')) {
+    reply = 'Starting is easy! Just register to talk with our Agent (for free) to learn about the income structure and real workflow before making a decision. Click the button below 👇';
   }
 
   appendResultChat('ai', reply);
@@ -1732,13 +1731,13 @@ function showToast(msg) {
 }
 
 function copyResult() {
-  const name = userData.name || 'คุณ';
+  const name = userData.name || 'You';
   const base = getSalaryBase(userData.salary);
   const y1 = formatK(Math.round(base * 1.4));
   const y3 = formatK(Math.round(base * 3.5));
   const y5 = formatK(Math.round(base * 6.0));
-  const text = `🤖 Career Twin ของฉัน — FWD Life Insurance\n\nถ้าเป็น FWD Agent:\nปีที่ 1: ${y1} บาท/เดือน\nปีที่ 3: ${y3} บาท/เดือน\nปีที่ 5: ${y5} บาท/เดือน\n\nลองดูชีวิตอีกเวอร์ชันของตัวเองได้ที่ FWD Career Twin AI`;
-  navigator.clipboard.writeText(text).then(() => showToast('✅ คัดลอกแล้ว! แชร์ให้เพื่อนดูได้เลย'));
+  const text = `🤖 My Career Twin — FWD Life Insurance\n\nIf I become an FWD Agent:\nYear 1: ${y1} THB/Mo\nYear 3: ${y3} THB/Mo\nYear 5: ${y5} THB/Mo\n\nSee another version of your life at FWD Career Twin AI`;
+  navigator.clipboard.writeText(text).then(() => showToast('✅ Copied! Share it with your friends'));
 }
 
 // expose userData
